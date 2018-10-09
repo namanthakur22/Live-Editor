@@ -7,16 +7,17 @@
 <meta name="keywords" content="HTML,CSS live Editon">
 <meta name="author" content="Naman Thakur">
 <link rel="stylesheet" type="text/css" href="D:\Projects\live-editor\main.css">
-<script type="text/javascript" src="D:\Projects\live-editor\main.js"></script>
+<script type="text/javascript" src="\main.js"></script>
 </head>
 <body>
 <div class="main">
-    <textarea id="editor" onkeyu="ref()"></textarea>
+    <textarea id="editor" onkeyup="r"></textarea>
     <iframe id="live-viewer"></iframe>
 </div>
 <div class="main2"><center>
-  Live Mode <input type="checkbox" checked><br/><br/>
-  <input type="button" value="Run" class="but" onclick="ref()"/><br><br>
+  <form id="myform">
+  Live Mode <input type="checkbox" checked onclick="cbChanged(this);"><br/><br/>
+  <input type="button" id="ree" value="Run" class="but" onclick="ref()"/>
 </div>
 </body>
 </html>
