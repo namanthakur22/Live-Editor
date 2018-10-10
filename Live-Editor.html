@@ -9,16 +9,16 @@
 <link rel="stylesheet" type="text/css" href="D:\Projects\live-editor\main.css">
 <script type="text/javascript" src="\main.js"></script>
 </head>
-<body>
+<body id="colour">
 <div class="main">
     <textarea id="editor" onkeyup="ref()"></textarea>
     <iframe id="live-viewer"></iframe>
 </div>
 <div class="main2"><center>
   <form id="myform">
-    Live Mode <input type="checkbox" onclick="cbChanged()"/><br/><br/>
+    <b>Live Mode</b> <input type="checkbox" onclick="cbChanged()"/> <b>Night Mode</b> <input type="checkbox" onclick="back()"/><br/><br/>
   <input type="button" id="reem" value="Run" class="but" onclick="refr()"/>
   </form>
-  </div>
-  </body>
-  </html>
+</div>
+</body>
+</html>
