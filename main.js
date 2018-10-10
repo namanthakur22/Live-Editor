@@ -25,6 +25,8 @@ function back(){
     document.getElementById('myform').style.color = "black";
     document.getElementById('live-viewer').style.color = "black";
     document.getElementById('live-viewer').style.backgroundColor = "white";
+    document.getElementById('editor').style.border = "2px solid black";
+    document.getElementById('live-viewer').style.border = "2px solid black";
   }
   else{
     document.getElementById('colour').style.backgroundColor = "black";
@@ -33,5 +35,7 @@ function back(){
     document.getElementById('myform').style.color = "white";
     document.getElementById('live-viewer').style.color = "white";
     document.getElementById('live-viewer').style.backgroundColor = "dimgrey";
+    document.getElementById('editor').style.border = "2px solid white";
+    document.getElementById('live-viewer').style.border = "2px solid white";
   }
 }
