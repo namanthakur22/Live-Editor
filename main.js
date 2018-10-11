@@ -23,8 +23,6 @@ function back(){
     document.getElementById('editor').style.backgroundColor = "white";
     document.getElementById('editor').style.color = "black";
     document.getElementById('myform').style.color = "black";
-    document.getElementById('live-viewer').style.color = "black";
-    document.getElementById('live-viewer').style.backgroundColor = "white";
     document.getElementById('editor').style.border = "2px solid black";
     document.getElementById('live-viewer').style.border = "2px solid black";
   }
@@ -33,8 +31,6 @@ function back(){
     document.getElementById('editor').style.backgroundColor = "dimgrey";
     document.getElementById('editor').style.color = "white";
     document.getElementById('myform').style.color = "white";
-    document.getElementById('live-viewer').style.color = "white";
-    document.getElementById('live-viewer').style.backgroundColor = "dimgrey";
     document.getElementById('editor').style.border = "2px solid white";
     document.getElementById('live-viewer').style.border = "2px solid white";
   }
